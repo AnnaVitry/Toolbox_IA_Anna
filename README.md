@@ -1,7 +1,7 @@
 # IA Foundation Toolbox de Anna
 
-![CI Status](https://github.com/AnnaVitry/Toolbox_IA_de_Anna/actions/workflows/ci.yml/badge.svg)
-[![Coverage](https://AnnaVitry.github.io/Toolbox_IA_de_Anna/_static/coverage.svg)](https://AnnaVitry.github.io/Toolbox_IA_de_Anna/)
+![CI Status](https://github.com/AnnaVitry/Toolbox_IA_Anna/actions/workflows/ci.yml/badge.svg)
+[![Coverage](https://AnnaVitry.github.io/Toolbox_IA_Anna/docs/source/_static/coverage.svg)](https://AnnaVitry.github.io/Toolbox_IA_Anna/)
 ![Python Version](https://img.shields.io/badge/python-3.12-blue.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 
