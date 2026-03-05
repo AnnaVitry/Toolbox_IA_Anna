@@ -1,0 +1,44 @@
+[project]
+name = "toolbox_ia"
+version = "0.1.0"
+description = "Toolbox de référence pour le cursus IA"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "pandas",
+    "pytest",
+    "pytest-cov",
+    "ruff",
+    "sphinx",
+    "furo",
+    "myst-parser",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.0.0",
+    "pytest-cov>=4.1.0",
+    "ruff>=0.15.4",
+    "genbadge[all]>=1.1.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["app*"]
+
+[tool.ruff]
+line-length = 88
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "W", "F", "I", "D"]
+ignore = ["D100", "D203", "D213"]
+
+[tool.coverage.run]
+omit = ["app/main.py"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = "test_*.py"
+pythonpath = ["."]
+addopts = "-v --cov=app --cov-report=term-missing"
