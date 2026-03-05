@@ -1,4 +1,4 @@
-# IA Foundation Toolbox de Anna
+# IA Foundation Toolbox de Anna.
 
 ![CI Status](https://github.com/AnnaVitry/Toolbox_IA_de_Anna/actions/workflows/ci.yml/badge.svg)
 ![Coverage](https://github.com/AnnaVitry/Toolbox_IA_de_Anna/docs/source/_static/coverage.svg)
